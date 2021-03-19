@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>네이버 회원가입화면</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <div id="wrap">
+        <header id="header">
+            <h1 id=headerLogo>NAVER</h1>
+        </header>
+
+        <div id="memID" class="basicInput">
+            <h4>아이디</h4>
+            <span id="memIDArea" class="inputArea">
+                <input type="text">
+            </span>
+        </div>
+
+        <div id="memPW" class="basicInput">
+            <h4>비밀번호</h4>
+            <span id="memPWArea" class="inputArea">
+                <input type="passeword">
+            </span>
+        </div>
+
+        <div id="memName" class="basicInput">
+            <h4>이름</h4>
+            <span id="memNameArea" class="inputArea">
+                <input type="text">
+            </span>
+        </div>
+
+        <div id="memBirth" class="basicBirthInput">
+            <h4>생년월일</h4>
+            <span id="memBirthYearArea" class="inputBrithArea">
+                <input type="text" placeholder="년(4자)">
+            </span>
+            <span id="memBirthMonthArea" class="inputBrithArea">
+                <select>
+                    <option value="월">월</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+            </span>
+            <span id="memBirthDayArea" class="inputBirthArea">
+                <input type="text" placeholder="일">
+            </span>
+        </div>
+
+        <div id="memPhone" class="basicPhoneInput">
+            <h4>휴대전화</h4>
+            <span id="nationNo">
+                <select>
+                    <option value="233">가나 +233</option>
+                    <option value="82">대한민국 +82</option>
+                    <option value="371">라트비아 +371</option>
+                </select>
+            </span>
+
+            <span id="memPhoneArea">
+                <input type="text" placeholder="전화번호입력" maxlength="16">
+            </span>
+            <span id="authNoBtn">
+                <a href="#">인증번호 받기</a></span>
+
+            <span id="insAuthNo">
+                <input type="text" placeholder="인증번호를 입력하세요" disabled></span>
+        </div>
+
+        <div id="submitArea" class="basicInput">
+            <span id="joinBtn"><a href="#">가입하기</a></span>
+        </div>
+
+        <footer id="footer">
+            <nav id="footerLNB">
+                <ul id="mainMenu">
+                    <li><a href="#">이용약관</a></li>
+                    <li class="defaultSelect"><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">책임의 한계와 법적고지</a></li>
+                    <li><a href="#">회원정보 고객센터</a></li>
+                </ul>
+            </nav>
+            <div id="copyright">
+                &copy; NAVER Crop.
+            </div>
+        </footer> <!--  footer#footer-->
+    </div> <!-- div#wrap -->
+
+</body>
+
+</html>
